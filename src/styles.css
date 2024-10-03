@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #414042;
+}
+
+h2 {
+  position: fixed;
+  top: 0;
+  right: 10%;
+  font-size: small;
+  color: #efcdae;
+}
+
+p {
+  font-size: small;
+  font-style: italic;
+}
+
+.title {
+  padding: 10px;
+}
+
+.showJoke {
+  border-radius: 30px;
+  margin: 0 10% 0 10%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+  background-color: #efcdae;
+  box-shadow: #f18435 5px 5px;
+}
+
+.thanksTo {
+  text-align: center;
+  padding-top: 10%;
+}
+
+button {
+  border-radius: 30px;
+  background-color: #f18435;
+  border: none;
+  padding: 10px;
+}
+
+.hideButton {
+  margin: 10px;
+}
